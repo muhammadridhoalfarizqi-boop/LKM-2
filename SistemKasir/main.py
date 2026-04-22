@@ -13,6 +13,6 @@ keranjang_saya.tambah_produk(p2, jumlah=1)
 keranjang_saya.tambah_produk(p3, jumlah=1)
 keranjang_saya.tambah_produk(p4, jumlah=1) 
 
-keranjang_saya.hapus_produk("Susu UHT")
+keranjang_saya.hapus_produk("Susu UHt")
 
 keranjang_saya.bayar(uang_diterima=400000)
