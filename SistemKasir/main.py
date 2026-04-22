@@ -1,6 +1,5 @@
 from sistem_kasir import Produk, Keranjang
 
-# Buat produk dengan stok
 p1 = Produk("Kopi Kenangan",   25000,  stok=10)
 p2 = Produk("Susu UHT",        18000,  stok=5)
 p3 = Produk("Keyboard Gaming", 250000, stok=3)

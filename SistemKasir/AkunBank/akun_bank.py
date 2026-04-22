@@ -16,13 +16,13 @@ class AkunBank:
     if jumlah <= self.saldo:
       self.saldo -= jumlah
       pesan = f"Tarik tunai Rp{jumlah:,}"
-      print(f"{self.pemilik} menarik Rp{jumlah:,}") # Ketentuan 3 : simpan ke riwayat
+      print(f"{self.pemilik} menarik Rp{jumlah:,}")
       self.riwayat.append(pesan)
     else:
       print("Saldo tidak cukup!")
   
   def transfer(self, tujuan, jumlah):
-      BIAYA_ADMIN = 2500 # Ketentuan 2 : Biaya admin transfer
+      BIAYA_ADMIN = 2500
 
       if jumlah <= 0:
          print("jumlah transfer harus lebih besar dari 0!")
